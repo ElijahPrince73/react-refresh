@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(el);
 function App() {
   const inputType = "number";
   const minValue = 5
-  
-  return <input type={inputType} minValue={minValue} />
+
+  return <input style={{border: '3px solid red'}} type={inputType} min={minValue} />
 }
 // 5) Show the component in the screen
 root.render(<App />);
