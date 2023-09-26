@@ -9,7 +9,8 @@ const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
-  return <h1>Hi there!</h1>;
+
+  return <h1>{new Date().toLocaleDateString()}</h1>;
 }
 // 5) Show the component in the screen
 root.render(<App />);
