@@ -12,7 +12,7 @@ function App() {
   const inputType = "number";
   const minValue = 5
 
-  return <input style={{border: '3px solid red'}} type={inputType} min={minValue} />
+  return <textarea autoFocus/>
 }
 // 5) Show the component in the screen
 root.render(<App />);
